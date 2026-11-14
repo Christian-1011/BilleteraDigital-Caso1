@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>pe.edu.billetera</groupId>
-    <artifactId>billetera-digital</artifactId>
+    <artifactId>demo</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
-    <name>Billetera Digital - Caso 1 T1</name>
+    <name>Billetera Digital</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,7 +30,7 @@
     </dependencies>
 
     <build>
-        <finalName>billetera-digital</finalName>
+        <finalName>demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
