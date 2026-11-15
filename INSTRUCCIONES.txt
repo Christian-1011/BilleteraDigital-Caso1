@@ -1,11 +1,9 @@
 CASO 1 - BILLETERA DIGITAL
+Pasos para instalar y ejecutar el proyecto
 
-1. Instala JDK 8 o superior, Maven 3.8 o superior y Tomcat 9.
-2. Abre una terminal dentro de esta carpeta.
-3. Ejecuta: mvn clean package
-4. Verifica que se haya creado target/demo.war.
-5. Copia target/demo.war a la carpeta webapps de Tomcat 9.
-6. Inicia Tomcat y abre http://localhost:8080/demo/billetera
-
-El archivo WAR se genera con Maven para incluir las dependencias declaradas en pom.xml,
-incluida JSTL. No uses un WAR creado manualmente sin esas bibliotecas.
+    Primero, asegúrate de tener instalados JDK 8 o una versión superior, Maven 3.8 o superior y Tomcat 9.
+    Luego, abre la terminal desde la carpeta donde se encuentra guardado el proyecto.
+    Una vez ahí, ejecuta el siguiente comando para compilar el proyecto y generar el archivo necesario: mvn clean package.
+    Cuando termine el proceso, verifica que se haya creado correctamente el archivo target/demo.war.
+    Después, copia ese archivo y pégalo dentro de la carpeta webapps de Tomcat 9.
+    Finalmente, inicia Tomcat y abre tu navegador. Ingresa a la siguiente dirección para acceder a la aplicación: http://localhost:8080/demo/billetera.
